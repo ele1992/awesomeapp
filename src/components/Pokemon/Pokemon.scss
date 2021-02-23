@@ -1,0 +1,8 @@
+.Pokemon {
+  transition: transform 0.2s ease;
+  transform: rotate(180deg);
+}
+
+.Pokemon:hover {
+  transform: scale(1.02) translate(0, -3px);
+}
